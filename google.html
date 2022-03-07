@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            
+        }
+
+        .bigbox{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .arama{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        .son{
+            display: flex;
+            align-items: center;
+            gap: 2px;
+            width: 100vh;
+            margin-left: 140px;
+            padding-top: 5px;
+           
+        }
+        .sag{
+            background-color: #62B3AA;
+            flex-grow: 4;
+            margin-right: -180px;
+            text-align: center;
+            height: 78px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-size: small;
+            
+        }
+        .orta{
+            background-color: #70CCC2;
+            flex-grow: 2;
+            text-align: center;
+            height: 78px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-size: small;
+        }
+        .sol{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: #7EE5DA;
+            flex-grow: 4;
+            margin-left: -340px;
+            text-align: center;
+            height: 78px;
+
+        }
+        .footer{
+            margin: 12px;
+            padding: 12px;
+            font-size: small;
+        }
+   
+    </style>
+
+</head>
+<body>
+    <div class="bigbox">
+        <div class="logo">
+           <img src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg" alt=""> 
+        </div>
+        <div class="arama">
+            <span>Search the web using Google!</span>
+                <div class="butonlar1"> 
+                   <input type="text" name="q" value size="40">
+                </div>
+                <div class="butonlar2">
+                    <input type="submit" value="Google Search">
+                    <input type="submit" name="sa" value="I'm feeling lucky">
+                </div>
+        </div>
+        <div class="son">
+            <div class="sol">
+                <span>Special Searches</span>
+                <div><a href="#">Stanford Search</a></div>
+                <div><a href="#">Linux Search</a></div> 
+            </div>
+            <div class="orta">
+                <a href="help.html">Help!</a>              
+                <a href="about.html">About Google!</a>             
+                <a href="company.html">Company Info</a>             
+                <a href="stickers.html">Google! Logos</a>
+            </div>
+            <div class="sag">
+                <span>Get Google!</span>
+                <span>updates monthly:</span>
+                <span> <input type="text" name="emailaddr"  value="your e-mail"></span>
+                <div> 
+                     <input type="submit" name="SubmitAction" value="Subscribe">
+                     <a href="https://web.archive.org/web/19981202230410/http://www.findmail.com/list/google-friends/">Archive</a>
+                 </div>      
+            </div>
+        </div>
+    </div>
+    <center class="footer">
+        Copyright ©1998 Google Inc.
+    </center>
+</body>
+</html>
