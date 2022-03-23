@@ -1,0 +1,43 @@
+/*
+
+* { color: white;}
+
+
+body {background-color: darkolivegreen;}
+
+h3 {color: white;
+    background-color: darkslateblue;}
+
+div {background-color: aqua;
+    color: brown;}
+
+#or1 {background-color: black;
+    color: brown;}    
+
+
+p.test {background-color: white;}
+.test {background-color: coral}
+.color-green { background-color: green;
+color: black;}
+
+p.test.color-green#id1 {color: black;}
+
+div {color: red !important;}
+p {color: red !important;}
+
+*/
+
+div, p {background-color: lime;}
+div strong {color: red;}
+
+.den > div {background-color: brown;}
+
+p + h2 {color: yellow;}
+
+p + h2 + div {color: blue;}
+
+div.aykutluk::before {content: attr(data-aykut); color: red;}
+
+div.aykutluk::after {content: 'sonrası'; color: red;}
+
+::selection {background-color: red; color: aqua;}
