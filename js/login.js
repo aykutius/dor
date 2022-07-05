@@ -1,5 +1,5 @@
 var k_username = "guest";
-var k_password = "12345";
+var k_password = "123456";
 var loggedin = false;
 
 while (loggedin == false) {
@@ -15,4 +15,5 @@ while (loggedin == false) {
         console.log("Hatalı kullanıcı adı veya şifre!!!")
     }
 }
+
 
