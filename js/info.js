@@ -35,11 +35,16 @@ negation !/  değilse
 prompt / hemen
 confirm / onaylamak
 conditionals / koşullar
+result / sonuç
+syntax / sözdizimi
+case / durum/dava
 */
 
 
 
 /*-----info------
+ctrl+shift+" / terminal
+break / koşul yerine gelirse çalışmayı durdurur.
 alt+shift+f kod düzenleme
 || alt+124 vertical line(ya da)
 alt+ sağ sol kelime atlama
