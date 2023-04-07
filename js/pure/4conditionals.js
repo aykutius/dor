@@ -134,3 +134,12 @@ let youAgeTenary = youAgeT >= 18
 youAgeTenary
     ? console.log(`yes`)
     : console.log(`nooooooooooooo ${18-youAgeT}`)
+
+let myAgee = 41,
+    yourAgee = prompt(`Enter your age ;`, `19`)
+if (myAgee > yourAgee){
+    console.log(`ben ${myAgee-yourAgee} yaş daha büyük.`)
+} else {
+    console.log(`benden ${yourAgee-myAgee} yaş daha küçük.`)
+}
+
